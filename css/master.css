@@ -707,6 +707,9 @@ ul {
   color: var(--color-text);
 }
 @media (max-width: 767px) {
+  .skills .container {
+    display: block;
+  }
   .skills .container .skills-box .content .content-text {
     width: 80%;
   }
@@ -799,6 +802,14 @@ ul {
 }
 .skills .achievement .box:nth-child(4) span::before {
   content: "87%";
+}
+@media (max-width: 767px) {
+  .skills .container .skills-box .achievement .box .line {
+    height: 25px;
+  }
+  .skills .achievement .box span {
+    height: 25px;
+  }
 }
 
 /* end skills */
