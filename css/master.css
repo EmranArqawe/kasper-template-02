@@ -659,10 +659,11 @@ ul {
   gap: 60px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .skills .container .skills-box {
     max-width: 80%;
     margin: 0 auto;
+    margin-bottom: 50px;
   }
 }
 
@@ -721,9 +722,9 @@ ul {
   }
 }
 .skills .container .skills-box .circle-1 {
-  padding: 30px 0;
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 .skills .container .skills-box .circle-1 span {
   position: relative;
